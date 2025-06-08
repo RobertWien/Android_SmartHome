@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="325dp"
+    android:layout_height="230dp"
+    android:background="#FFEB3B"
+
+    android:backgroundTint="#E3AFC0"
+
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="VOICE CONTROLL PANEL"
+        android:textColor="#960041"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:background="@drawable/edge_round"
+        android:id="@+id/tvText"
+        android:lines="1"
+        android:maxLines="1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="10dp"
+        android:autoText="true"
+
+        android:editable="true"
+        android:fadingEdge="vertical"
+        android:fadingEdgeLength="@android:dimen/dialog_min_width_minor"
+        android:fontFamily="casual"
+        android:hint="   Your speech to text here"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"></EditText>
+
+    <ImageView
+        android:id="@+id/btnSpeak"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="-130dp"
+        android:layout_marginTop="-45dp"
+        android:onClick="getSpeechInput"
+        android:src="@drawable/ic_mic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_voice_control_cancel"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#CD1F5B"
+            android:fontFamily="serif"
+            android:text="😢 CANCEL"
+            android:textColor="#25010D"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_voice_controll_go"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FFEB3B"
+            android:fontFamily="serif"
+            android:text="🚴 GO"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
+            app:iconTint="#951111" />
+    </LinearLayout>
+
+</LinearLayout>

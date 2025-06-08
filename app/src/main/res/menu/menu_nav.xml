@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_chat_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+</group>
+
+    <item android:title="@string/nav_system">
+            <group android:checkableBehavior="single">
+                <menu>
+                    <item android:id="@+id/nav_security"
+                        android:title="@string/nav_security"
+                        android:icon="@drawable/ic_security"/>
+
+                    <item android:id="@+id/nav_livingroom"
+                        android:title="@string/nav_livingroom"
+                        android:icon="@drawable/ic_livingroom"/>
+
+                    <item android:id="@+id/nav_bedroom"
+                        android:title="@string/nav_bedroom"
+                        android:icon="@drawable/ic_bedroom"/>
+
+                    <item android:id="@+id/nav_kitchen"
+                        android:title="@string/nav_kitchen"
+                        android:icon="@drawable/ic_kitchen"/>
+
+                </menu>
+            </group>
+    </item>
+
+    <item android:title="@string/nav_topic">
+            <group android:checkableBehavior="single">
+
+                <menu>
+
+                    <item android:id="@+id/nav_favorite"
+                        android:title="@string/nav_favorite"
+                        android:icon="@drawable/ic_favorite"/>
+
+                    <item android:id="@+id/nav_history"
+                        android:title="@string/nav_history"
+                        android:icon="@drawable/ic_history"/>
+
+                </menu>
+            </group>
+    </item>
+
+    <item android:title="@string/nav_account">
+            <group android:checkableBehavior="single">
+                <menu>
+                    <item android:id="@+id/nav_profile"
+                        android:title="@string/nav_profile"
+                        android:icon="@drawable/ic_profile"/>
+
+                    <item android:id="@+id/nav_password"
+                        android:title="@string/nav_password"
+                        android:icon="@drawable/ic_family"/>
+
+                </menu>
+            </group>
+    </item>
+
+
+
+</menu>

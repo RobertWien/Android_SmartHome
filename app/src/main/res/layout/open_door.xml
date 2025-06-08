@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="325dp"
+    android:layout_height="230dp"
+    android:background="#FFEB3B"
+
+    android:backgroundTint="#C6BCC0"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="🖇ENTER DOOR PASSWORD"
+        android:textColor="#009688"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/fill_open_door"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edge_round_3"
+        android:fontFamily="casual"
+        android:hint="✒️️ Enter your door password"
+        android:lines="1"
+        android:maxLines="1"
+        android:password="true"
+        android:textColor="#FF5722"
+
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_open_door_cancel"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#F1D20A"
+            android:fontFamily="serif"
+            android:text="😢 CANCEL"
+            android:textColor="#E91E63"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_open_door_ok"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#13EA26"
+            android:fontFamily="serif"
+            android:text="😍 OPEN"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
+            app:iconTint="#EC0909" />
+    </LinearLayout>
+
+</LinearLayout>

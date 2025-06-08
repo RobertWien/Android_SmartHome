@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MY SMART HOME</string>
+    <string name="page_name_1">MY HOME</string>
+
+
+    <string name="nav_chat_home">Home</string>
+
+    <string name="nav_system">Household System</string>
+    <string name="nav_security">Security</string>
+    <string name="nav_livingroom">Livingroom</string>
+    <string name="nav_bedroom">Bedroom</string>
+    <string name="nav_kitchen">Kitchen</string>
+
+    <string name="nav_topic">Topics</string>
+    <string name="nav_favorite">Favorites</string>
+    <string name="nav_history">History</string>
+
+    <string name="nav_account">My Account</string>
+    <string name="nav_profile">My Profile</string>
+    <string name="nav_password">Family</string>
+
+    <string name="navigation_drawer_open">bbbbbbbb</string>
+    <string name="navigation_drawer_close">bbbbffffffffff</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

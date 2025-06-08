@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFD9D9"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Control_Interfaces.Kitchen">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <Switch
+            android:id="@+id/swLight_kit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="140dp"
+            android:textColor="#CD1919"
+            android:textColorHighlight="#E61515"
+            android:textColorHint="#AE1717"
+            android:textColorLink="#DF1616"
+            android:textCursorDrawable="@color/purple_200"
+            android:textStyle="bold"
+            android:thumbTint="#F44336" />
+
+        <ImageView
+            android:id="@+id/pic_light_off_kit"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/lightoff_kitchen" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp">
+
+        <Switch
+            android:id="@+id/swAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="150dp"
+            android:thumbTint="#2196F3" />
+
+        <ImageView
+            android:id="@+id/pic_alarm"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/alarm_off"/>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="170dp">
+
+        <Switch
+            android:id="@+id/swLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="288dp"
+            android:thumbTint="#FFEB3B" />
+
+        <ImageView
+            android:id="@+id/pic_line"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/clothes_in_manual"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="480dp">
+
+        <TextView
+            android:id="@+id/txt_label_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="CLOTHES LINE"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_500"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_status_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="..................."
+            android:textAllCaps="false"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="KITCHEN"
+        android:textAllCaps="false"
+        android:textColor="@color/purple_500"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+</FrameLayout>

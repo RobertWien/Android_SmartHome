@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Control_Interfaces.Bedroom">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <Switch
+            android:id="@+id/swLight_bed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="80dp"
+            android:buttonTint="#BC2222"
+            android:foregroundTint="#BD1010"
+            android:shadowColor="#DC3333"
+            android:textColor="#CD1919"
+            android:textColorHighlight="#E61515"
+            android:textColorHint="#AE1717"
+            android:textColorLink="#DF1616"
+            android:textCursorDrawable="@color/purple_200"
+            android:textStyle="bold"
+            android:thumbTint="#C51818" />
+
+        <ImageView
+            android:id="@+id/pic_light_off_bed"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/lampbulboff_bed" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp">
+
+        <Switch
+            android:id="@+id/swFan_bed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="110dp"
+            android:thumbTint="#2196F3" />
+
+        <ImageView
+            android:id="@+id/pic_fan_off_bed"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/fanair_bed"/>
+
+        <ImageView
+            android:id="@+id/pic_fan_on_bed"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="57dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/fan_bed" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="220dp">
+
+        <Switch
+            android:id="@+id/swAir_bed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="225dp"
+            android:thumbTint="#FFEB3B" />
+
+        <ImageView
+            android:id="@+id/pic_air_off_bed"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/airconditionoff_bed"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:layout_marginTop="520dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/pic_temp_bed"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="-20dp"
+            android:src="@drawable/temperature_bed"/>
+
+        <TextView
+            android:id="@+id/temp_bed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="3"
+            android:fontFamily="cursive"
+            android:text="... °C"
+            android:textColor="#F44336"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/pic_humid_bed"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="180dp"
+            android:src="@drawable/humid_bed"/>
+
+        <TextView
+            android:id="@+id/humid_bed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="3"
+            android:fontFamily="cursive"
+            android:text="... %"
+            android:textColor="#2196F3"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:layout_marginTop="500dp"
+        android:orientation="horizontal">
+
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="BEDROOM"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="210dp">
+
+        <TextView
+            android:id="@+id/fan_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="85dp"
+            android:layout_weight="3"
+            android:fontFamily="cursive"
+            android:text="FAN SPEED: ... UNIT"
+            android:textColor="#FF9800"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="150dp"
+            android:layout_weight="3"
+            android:fontFamily="cursive"
+            android:text="SELECT FAN SPEED UNIT"
+            android:textColor="#009688"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/fan_controll"
+            android:layout_width="44dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="135dp"
+            android:src="@drawable/ic_edit" />
+    </FrameLayout>
+
+
+</FrameLayout>

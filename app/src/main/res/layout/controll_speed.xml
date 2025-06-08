@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="230dp"
+    android:background="#79FF733B"
+    android:backgroundTint="#9E8E09"
+
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="📲CHOOSE SPEED UNIT"
+        android:textColor="#9C27B0"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_unit"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="10dp"
+        android:autoText="false"
+        android:background="@drawable/edge_round_3"
+        android:fontFamily="casual"
+        android:hint="✏️  Choose from 1 to 10"
+        android:inputType="number"
+        android:lines="1"
+        android:maxLines="1"
+        android:textColor="#009688"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_unit_cancel"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#F44336"
+            android:fontFamily="serif"
+            android:text="😢 CANCEL"
+            android:textColor="#2196F3"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_unit_ok"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#3F51B5"
+            android:fontFamily="serif"
+            android:text="😍 OK"
+            android:textColor="#F44336"
+            android:textStyle="bold"
+            app:iconTint="#EC0909" />
+    </LinearLayout>
+
+</LinearLayout>

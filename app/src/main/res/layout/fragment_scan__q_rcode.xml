@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Control_Interfaces.Scan_QRcode"
+    tools:ignore="MissingClass">
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scanner_view"
+        app:autoFocusButtonColor = "@color/teal_200"
+        app:autoFocusButtonVisible = "true"
+        app:flashButtonColor = "@android:color/holo_orange_light"
+        app:flashButtonVisible = "true"
+        app:frameColor="?android:attr/statusBarColor"
+        app:maskColor = "#6C292727"
+        tools:targetApi="lollipop">
+    </com.budiyev.android.codescanner.CodeScannerView>
+
+</RelativeLayout>
