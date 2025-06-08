@@ -27,12 +27,10 @@ To start developing or running this project locally, follow these steps:
    
 ## 🚀 Some images of this application
 
-   ![image](https://github.com/user-attachments/assets/10dc6c24-ceb5-40bf-8c46-ab036b7676f5)
-   ![image](https://github.com/user-attachments/assets/2ac3614d-a0ff-455f-87b9-6cdb00cc771b)
-   ![image](https://github.com/user-attachments/assets/9b5521ff-3c1d-4781-8598-8a2301c7e681)
-   ![image](https://github.com/user-attachments/assets/1c8ca502-7aef-43a7-82b2-91e29f05e306)
-   ![image](https://github.com/user-attachments/assets/7484e1d1-a6de-4baf-8ac0-844d00d7a7f3)
-   ![image](https://github.com/user-attachments/assets/17386b47-efc6-4327-ab67-e32ccf1ebdf7)
+  ![image](https://github.com/user-attachments/assets/2d29c1aa-ac06-4efa-aa34-4369469d86f0)
+  ![image](https://github.com/user-attachments/assets/4fd6d9b8-72e2-4847-8597-102ae73024b5)
+
+
 
 
 
